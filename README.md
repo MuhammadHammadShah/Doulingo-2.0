@@ -44,6 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```
 - Folder Name with paranthesis () will not be part of url , but will be routed
 - Layout page is used to wrap up the page.tsx file
+- {...lesson} existing lesson by spreading it
 
 ```
 
