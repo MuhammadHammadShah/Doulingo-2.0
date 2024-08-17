@@ -46,6 +46,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Layout page is used to wrap up the page.tsx file
 - {...lesson} existing lesson by spreading it
 
+
+```
+5:06:53 / 11:12:20
+
+```
+
+
+
 ```
 
 ```
