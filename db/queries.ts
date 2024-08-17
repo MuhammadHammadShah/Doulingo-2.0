@@ -112,6 +112,12 @@ export const getUnits = cache(async () => {
 
   const normalizationData = data.map((unit) => {
     const lessonWithCompletedStatus = unit.lessons.map((lesson) => {
+      if (lesson.challenges.length === 0) {
+        return {
+          ...lesson,
+          completed: false,
+        };
+      }
       const allCompletedChallenges = lesson.challenges.every((challenge) => {
         return (
           challenge.challengeProgress &&
@@ -127,7 +133,7 @@ export const getUnits = cache(async () => {
   return normalizationData;
 });
 
-const getLesson = cache(async (id?: number) => {
+export const getLesson = cache(async (id?: number) => {
   const { userId } = await auth();
   if (!userId) {
     return null;
