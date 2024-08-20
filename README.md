@@ -45,12 +45,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Folder Name with paranthesis () will not be part of url , but will be routed
 - Layout page is used to wrap up the page.tsx file
 - {...lesson} existing lesson by spreading it
-
+- const { userId } = await auth()  // here { userId } is distructure the user id
 
 ```
-5:17:49 / 11:12:20
 
-
+7:24:41 / 11:12:20
 
 ```
 
