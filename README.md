@@ -50,6 +50,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```
 
 7:24:41 / 11:12:20
+bhai hearts k end page pr nhi ja raha HAVE TO FIND IT through previous sections where logic for heart detuction was creating
+pracitce page ka pop b nhi araha h
 
 ```
 
